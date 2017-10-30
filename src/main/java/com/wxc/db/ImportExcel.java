@@ -32,7 +32,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.gdgz.whitelist.util.TimeUtils;
+import com.wxc.util.TimeUtils;
+
 
 /**
  * @author wxc

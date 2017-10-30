@@ -24,10 +24,10 @@
 		<property name="location" value="classpath:jdbc.properties" />
 	</bean>
 	
-	<bean id="ImportExcel" class="com.gdgz.whitelist.db.ImportExcel" />
-	<bean id="ImportTC" class="com.gdgz.whitelist.db.ImportTC" />
-	<bean id="CompareExcel" class="com.gdgz.whitelist.db.CompareExcel" />
-	<bean id="CompareTC" class="com.gdgz.whitelist.db.CompareTC" />
+	<bean id="ImportExcel" class="com.wxc.db.ImportExcel" />
+	<bean id="ImportTC" class="com.wxc.db.ImportTC" />
+	<bean id="CompareExcel" class="com.wxc.db.CompareExcel" />
+	<bean id="CompareTC" class="com.wxc.db.CompareTC" />
 	
 	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource"
 		destroy-method="close">

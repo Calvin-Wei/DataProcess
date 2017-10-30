@@ -22,7 +22,8 @@ import org.springframework.web.multipart.MaxUploadSizeExceededException;
 import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
-import com.gdgz.whitelist.controller.upload.UpLoadAction;
+import com.wxc.zipdata.UpLoadAction;
+
 
 /**
  * @author wxc

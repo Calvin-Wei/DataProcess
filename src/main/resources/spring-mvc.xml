@@ -18,7 +18,7 @@
         http://www.springframework.org/schema/tx 
         http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
-	<context:component-scan base-package="com.gdgz.whitelist.controller" />
+	<context:component-scan base-package="com.wxc.zipdata" />
 	<mvc:annotation-driven />
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -26,7 +26,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
-	<bean id="multipartResolver" class="com.gdgz.whitelist.util.CustomMultipartResolver">
+	<bean id="multipartResolver" class="com.wxc.util.CustomMultipartResolver">
 		<property name="defaultEncoding" value="utf-8"></property> 
 		<property name="maxUploadSize" value="83886080"></property>
 		<property name="maxInMemorySize" value="20480"></property> 
